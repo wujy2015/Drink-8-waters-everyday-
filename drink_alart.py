@@ -27,76 +27,70 @@ class Gmail(object):
             self.email,
             self.email,
             headers + "\r\n\r\n" + body)
-gm = Gmail('your_gmail@gmail.com', 'your_password')
+
 
 while(True):
   dateSTR = datetime.datetime.now().strftime("%H:%M:%S" )
   if dateSTR == ("10:00:00"):
        print(dateSTR)
        try:
+           gm = Gmail('your_gmail@gmail.com', 'your_password')
            gm.send_message('Drink Water!', 'Please!')
            print "Successfully sent email"
        except:
            print "Error: unable to send email"
   if dateSTR == ("11:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("12:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("14:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("15:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("16:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("20:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
           print "Error: unable to send email"
   if dateSTR == ("21:00:00"):
-      # do function
       print(dateSTR)
       try:
-          # server.sendmail("mylotarg1989@gmail.com", "mylotarg1989@gmail.com", message)
+          gm = Gmail('your_gmail@gmail.com', 'your_password')
           gm.send_message('Drink Water!', 'Please!')
           print "Successfully sent email"
       except:
